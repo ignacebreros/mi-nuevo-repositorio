@@ -1,0 +1,554 @@
+@font-face {
+  font-family:"juli" ;
+  src: url("../font/juli.ttf");
+}
+
+*{margin:0;
+padding: 0;
+box-sizing:border-box;}
+
+
+nav{
+    background-color:#6E2EC9;
+    border-bottom-color: rgb(255, 0, 179);
+    border-style:solid ; 
+    
+   
+ul
+  {
+    color: rgb(240, 248, 255);font-family: "juli";font:20px; list-style-type:none; text-decoration: none; 
+  }
+ 
+  
+  
+  
+ ol { list-style: none;}
+
+footer {background-color: #8045FE;
+width:1850px;
+grid-area:footer;
+}
+
+
+
+    
+ol li {display:inline-block;
+       padding-inline-start:30px;
+       color: aliceblue;
+      
+       
+      }  
+.textos1
+{ text-align: center;
+  font-family:"juli";
+  color: aliceblue;
+  font-size:xx-large;
+  background-color:turquoise;
+  border-color: white ;
+  padding: 9rem ;
+  grid-area: titulo ;
+ 
+ 
+}
+      
+.imagentaza 
+  {text-align: center;
+   background-color: #2342ca;
+   border: 5px;
+   border-color: aliceblue;
+   padding: 13rem;
+   grid-area: imagen;
+    
+          
+} 
+
+}
+       
+
+
+
+.precios {background-color: aqua;
+        text-align: right;}
+
+.titulo2 {font-size: large;}
+.contac { 
+        font-family:"juli";
+        font-size: large;
+        font-weight: bold;
+       }
+.contenedor{
+  display:grid;
+  gap:10px;
+  justify-content: space-between;
+  align-items:center center;
+  grid-template-areas: 
+  "imagen titulo"
+  "imagen descripcion"
+  ;
+}
+.cuerponostros{ 
+  background-color: aliceblue;
+  width:1850px
+}
+.foote{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+  padding-bottom:  20px;
+  padding-left:20px ;
+  padding-right: 20px;
+  background-color: #2342ca; 
+ }
+ .coope{ font-family:"juli";
+font-size:x-large;
+color:white;
+}
+a{text-decoration: none;
+color: aliceblue;
+}
+.descripcion{ background-color: #77E68A;
+font-family: "juli";
+color: aliceblue;
+font-size:x-small;
+grid-area:descripcion;
+padding-top:2rem;
+
+  padding-bottom: 3rem;
+  padding-left:4rem ;
+  padding-right: 5rem;
+}
+
+
+.productoremera{
+  background-color: #77E68A;
+color: aliceblue;
+font-family: "juli";
+font-size: xx-large;
+text-align: center;
+padding-left:2rem;
+justify-content: center;
+border-radius:20px;
+border-color: #8045FE;
+border-style:solid;
+margin-top:2rem; 
+
+
+
+}
+.productotaza{
+  background-color: darkturquoise;
+  color: aliceblue;
+  font-family: "juli";
+  font-size: xx-large;
+  grid-area: taza;
+  padding:2rem;
+  border-radius:20px;
+  text-align: center;
+  margin-top:2rem;
+  margin-bottom:2rem;
+  border-color: #8045FE;
+  border-style:solid; 
+}
+.productollavero{
+  background-color: deeppink;
+  color: aliceblue;
+  font-family: "juli";
+  font-size: xx-large;
+  grid-area: llavero;
+  border-radius:20px;
+  text-align: center;
+  padding:2rem;
+  margin-bottom:2rem;
+  border-color: #8045FE;
+  border-style:solid; 
+
+  
+}
+.botones{
+  background-color: deepskyblue;
+  color: aliceblue;
+  font-family: "juli";
+  font-size: xx-large;
+  grid-area:boton;
+  text-align: center;
+  padding:2rem;
+  border-radius:20px;
+  border-color: #8045FE;
+  border-style:solid ;
+}
+
+.productoss{
+  display: grid;
+  gap: 1rem;
+  grid-template-columns:1fr 1fr;
+  grid-template-rows:1fr 1fr ;
+ 
+  grid-template-areas: 
+  "remera taza"
+  "boton llavero"
+ }
+
+p{
+  text-align: center ;
+  padding-bottom:3rem ;
+}
+.remera{
+  text-align: center;
+}
+.taza{
+  text-align: center;
+  
+}
+.llavero{
+  text-align: center;
+}
+.boton{
+  text-align: center;
+}
+.imagen1{ justify-content: center;
+  text-align: center;
+  text-align: center;
+  
+}
+.imagen2{
+  padding-top:2rem;
+  align-items: center;
+}
+.imagen3{
+  padding-left:2rem
+  padding-top:2rem ;
+  align-items:center;
+}
+
+.imagen4{
+  padding-left:
+  padding-top:2rem ;}
+  @media (width < 600px) 
+  {
+   .contenedor {
+     grid-template-columns:1fr;
+     grid-template-rows: 1fr 1fr 2fr;
+     grid-template-areas:
+     "imagen"
+     "titulo"
+     "descripcion"
+   }
+   .barra{
+     display: inline;
+    justify-content:left;
+    padding-top:0px;
+    padding-left:0%;
+    padding-right:0%;
+    width:100%;
+   } 
+   .foote{
+     display: block;
+     align-items: center;
+   }
+   .descripcion{
+     font-size: xx-large;
+     text-align: center;
+     justify-content: center;
+     width: 1080px;
+     padding-left:13rem ;
+     padding-bottom:13rem ;
+     padding-top:13rem;
+     padding-right:13rem;
+     
+ 
+   }
+   .imagentaza{
+     padding-left:0rem;
+     padding-right:1rem;
+     justify-content: left;
+     }
+     
+   
+     
+     
+ } 
+ @media (width < 600px){.productoss {
+  grid-template-columns:1fr 1fr 1fr 1fr ;
+  grid-template-rows:1fr;
+  grid-template-areas: 
+  "remera" 
+  "taza"
+  "boton" 
+  "llavero"}
+
+ }
+ 
+ 
+ .nosotros{
+  padding-top:20px ;
+  padding-bottom:20px ;
+  background-color: rgb(248, 244, 244);
+  }
+  .que{background-color:#A63392;      
+   
+   padding: 10px;
+   border-radius:40px ;
+   font-family:"juli" ;
+   text-align: center;
+   padding:2rem ;
+
+    
+    
+  }
+  .cuando{
+    background-color:#03BFC0 ;
+   gap: 10px;
+   padding: 10px;
+   border-radius:40px;
+   font-family:"juli";
+   text-align: center;
+   padding:2rem;
+   margin-bottom:2rem;
+
+  }
+  h2{color: azure;
+    text-align: center;
+  padding-left:10px ;
+  padding-right: 10px;
+   }
+  p{color: aliceblue;
+  text-align: center;
+padding-left: 10px;
+padding-right: 10px;}
+  .preguntas{
+    background-color:#431ec7 ;
+   gap: 10px;
+   padding: 10px;
+   border-radius:40px ;
+   text-align: center;
+   padding: 2rem;
+   font-family:"juli" ;
+
+  }
+  .donde{
+    background-color:blue ;
+   gap: 10px;
+   padding: 10px;
+   border-radius:40px ;
+   text-align: center;
+   font-family: "juli";
+   padding-top:2rem;
+   margin-top:1rem ;
+   padding: 2rem;
+  }
+  .porque{
+    background-color:violet ;
+   gap: 10px;
+   padding: 10px;
+   border-radius:40px;
+   text-align: center;
+   font-family: "juli";
+   padding-top:2rem;
+   padding:2rem;
+
+  }
+  .integra{
+    background-color:rgb(60, 243, 158) ;
+   gap: 10px;
+   padding: 2rem;
+   border-radius:40px;
+   text-align: center;
+   font-family: "juli";
+   
+  }
+  .ContactoMujeres{
+    background-color: #03BFC0;
+    padding-top:1rem;
+    padding-bottom:1rem;
+  
+    border-radius:25px;
+    border-color: #77E68A;
+    border-style:solid;
+    margin-bottom:2rem;
+    margin-top:2rem ;
+    margin-left:3rem;
+    margin-right:3rem;
+    
+
+  }
+  .mail{
+    background-color: #431ec7;
+    font-family:"juli";
+    color:yellow;
+    gap:2rem;
+    margin-top:2rem;
+    border-radius:25px;
+    text-align: center;
+    padding-top:1rem;
+    padding:1rem;
+    border-style:solid;
+    ;
+    
+
+    
+    
+  }
+.contac{
+  text-align:center;
+  font-size: xx-large;
+  padding-top: 2rem;
+  padding-bottom:1rem;
+  
+}
+.redsocial{
+  background-color: #431ec7;
+  font-family:"juli";
+  color: yellow;
+  border-radius:20px;
+  text-align: center;
+  margin-top:2rem;
+  padding-top:1rem;
+  padding:1rem;
+  border-color:yellow;
+  border-style:solid;
+}
+.direccion{
+  background-color: #431ec7;
+  font-family:"juli" ;
+  border-radius:20px ;
+  color:yellow;
+  text-align: center;
+  padding-top:1rem;
+  margin-top: 1rem;
+  gap:1rem;
+  padding:1rem;
+  border-color: yellow;
+  border-style:solid;
+  
+
+}
+.contactosGeneral{
+  background-color:rgb(170, 76, 224);
+   
+}
+.numero{
+  background-color: #431ec7;
+  font-family:"juli";
+  border-radius:15px;
+  text-align: center;
+  margin-top:1rem;
+  color:yellow;
+  padding:1rem;
+  border-color:yellow;
+  border-style:solid ;
+  }
+.tel{
+  background-color: #431ec7;
+  border-radius:15px;
+  font-family:"juli" ;
+  color:yellow;
+  text-align: center;
+  padding-top:1rem;
+  padding:1rem;
+  border-color:yellow ;
+  border-style:solid;
+  margin-top:1rem ;
+}
+.provincia{ 
+  background-color: #431ec7;
+  border-radius:20px;
+  text-align: center;
+  font-family:"juli";
+  padding:1rem;
+  margin-top:1rem;
+  border-style:solid;
+  border-color:yellow;
+  color:yellow;
+}
+.departamento{
+  background-color: #431ec7;
+  border-radius:20px;
+  text-align: center;
+  font-family:"juli";
+  padding:1rem;
+  margin-top:1rem;
+  border-style:solid;
+  border-color:yellow;
+  color:yellow;
+}
+.quePodemos{
+  background-color: #431ec7;
+  border-radius:20px;
+  text-align: center;
+  font-family:"juli";
+  padding:1rem;
+  margin-top:1rem;
+  border-style: solid;
+  border-color: yellow;
+  color: yellow;
+  font-size: x-large;
+  border-width:5px ;
+}
+.nombreApellido{ background-color: #431ec7;
+  border-radius:20px;
+  text-align: center;
+  font-family:"juli";
+  padding:1rem;
+  margin-top:1rem;
+  border-style: solid;
+  border-color: yellow;
+  color: yellow;
+  font-size: x-large;
+  border-width:5px ;
+
+}
+
+
+
+.enviar{
+  margin-top:1rem;
+  padding-left:5rem;
+  margin-bottom:1rem ;
+  margin-top:1rem;
+  padding-bottom:2rem;
+  
+
+}
+.navbar-nav{
+  font-family:"juli";
+  padding-left:2rem ;
+  margin-top:1rem ;
+  }
+.nav-link{
+  color: aliceblue;
+  text-align: right;
+  padding-left:1rem;
+
+}
+.imagen-principal{
+  background-color: #03BFC0;
+  border-radius:45px;
+  text-align: center;
+  padding:2rem ;
+  margin-top:1rem;
+  margin-bottom:2rem;
+  border-color: yellow;
+  border-width:5px;
+  border-style: solid;
+
+
+}
+.titulo1{background-color: #6E2EC9;
+border-radius:20px;
+padding: 3rem;
+text-align:center ;
+color: rgb(235, 252, 9);
+border-color: #77E68A;
+border-style:solid ;
+font-family:"juli"; 
+}
+.descripcion{
+  border-radius:20px ;
+  border-color: #8045FE;
+  border-style:solid;
+  margin-bottom:2rem;
+  
+}
+
+
