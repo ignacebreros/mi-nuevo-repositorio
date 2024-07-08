@@ -1,0 +1,68 @@
+
+
+
+/* colores paleta*/
+$color-primario:#A732D9;
+$color-secundario:green;
+$color-terciario:black;
+/* probando como compila sass */
+card-img-top{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    align-items:center;
+    justify-content: center;
+    border-radius:20px;
+    padding:1rem;
+  }
+  .card-img-top:hover{
+    object-fit: cover;
+    width:100%;
+    height:100%;
+    align-items:center;
+    justify-content: center;
+    border-radius:50px;
+    padding:1rem;
+    
+   
+    animation:swing; 
+    animation-duration: 2s;
+  }
+  
+  .card{
+    width:fit-content ;
+    height:fit-content;
+    gap:2rem;
+    margin-top:2rem;
+    margin-left:2rem;
+    margin-right:2rem;
+    margin-bottom:2rem;
+    border-radius:20px;
+    background-color:#A732D9;
+    border-bottom: #14D959;
+    border-style: solid;
+  
+  }
+  .card-text{
+    color: white;
+    font-family:"juli" ;
+    font-size:xx-large ;
+    background-color: #14D959;
+    padding:1rem ;
+    border-radius:25px;
+    text-align: center;
+  }
+  .card-title{
+  
+   color: white;
+    font-family:"juli" ;
+    font-size:xx-large;
+    
+    border-radius:25px;
+    text-align: center;
+  }
+
+
+
+
+
